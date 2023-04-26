@@ -1,0 +1,26 @@
+{
+  "name": "test-apify",
+  "version": "1.0.0",
+  "description": "Apify technical test",
+  "scripts": {
+    "gen": "node ./src/generateData.ts",
+    "start": "node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EtienneDuv/test-apify.git"
+  },
+  "author": "EtienneDuv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EtienneDuv/test-apify/issues"
+  },
+  "homepage": "https://github.com/EtienneDuv/test-apify#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
